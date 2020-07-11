@@ -1,0 +1,145 @@
+body{
+    
+    align-items: center;
+    text-align: center;
+    background-color: darkolivegreen;
+}
+.msm>h1{
+  margin: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    display:inline-block;
+   
+    /* flex-wrap: wrap;
+    justify-content: space-around; */
+    /* width: 140px; */
+    
+    background-color: #D2B48C;
+    border-radius: 13px;
+    color: blue;
+    text-align: center;
+    
+}
+#min{
+      width: 120px;
+      padding-left: 16px !important;
+      padding-right: 16px !important;
+
+
+      text-align: center;
+}
+#hour{
+    width: 120px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+}
+#sec{
+    width: 120px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+}
+#msec{
+    width: 120px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+}
+.msm>h1:hover{
+    background-color: 	#808000;
+    color: 	#e7e7ec;
+}
+
+.heading{
+    text-align: center;
+    border-radius: 10px ;
+    /* box-shadow: inset 0px 5px 5px 6px; */
+    color: white;
+    background-color: rgb(74, 26, 248);
+     width: 196px;
+     padding: 3px;
+     margin: 0 auto;
+     margin-bottom: 20px !important;
+}
+.msm{
+    /* width: 400px; */
+padding: 10px;
+/* border: 2px solid gold; */
+margin: 0 auto;
+ 
+}
+button{
+    padding: 10px;
+    margin: 2px 5px 5px 5px !important;
+    padding-left: 13px !important;
+    padding-right: 13px !important;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid green;
+    color: green;
+    background-color: white;
+}
+.btn{
+    padding-left: 10px; 
+    margin: 5px !important;
+}
+#dis:hover{
+    background-color:rgb(15, 49, 241) ;
+}
+#en:hover{
+    background-color:rgb(255, 0, 0) ;
+    color: rgb(255, 255, 255);
+}
+#enn:hover{
+    background-color:white ;
+    color: rgb(32, 7, 255);
+}
+
+#en{
+    background-color:rgb(255, 254, 254) ;
+    color: 	rgb(255, 0, 0);
+    border-radius: 10px !important;
+    border: 1px solid rgb(117, 116, 116) !important;
+}
+#dis{
+    background-color:rgb(17, 17, 17) ;
+    color:rgb(253, 246, 246) ;
+    border-radius: 10px !important;
+    border: 1px solid rgb(160, 156, 156) !important;
+}
+#enn{
+    background-color:	Blue;
+    color: 	rgb(252, 252, 252);
+    border-radius: 10px !important;
+    border: 1px solid rgb(5, 3, 3) !important;
+
+}
+body {
+    background-image: url(images/pexels-photo-132197.jpeg);
+    background-color: #cccccc;
+   }
+   
+
+
+@media screen and (max-width: 600px) {
+    .main {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      text-align: center;
+    }
+    .msm>h1{
+        padding: 25px;
+        padding-top: 6px !important;
+        padding-bottom: 6px !important;
+        margin-top: 6px !important ;
+        margin-bottom:6px !important ;
+        margin: 50px;
+        text-align: center;
+    }
+
+  }
+
